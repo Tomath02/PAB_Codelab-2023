@@ -1,3 +1,5 @@
+//Source API http://www.omdbapi.com/
+
 import {getMovies, updateUI, getDetail, detailUI} from './function.js';
 const searchButton = document.querySelector('.search-button');
 searchButton.addEventListener('click', async function(){
